@@ -4,20 +4,24 @@ return [
     /**
      * The book title.
      */
-    'title' => 'Laravel Queues in Action',
+    'title' => 'Dobre praktyki',
 
 
     /**
      * The author name.
      */
-    'author' => 'Mohamed Said',
+    'author' => 'Polcode',
 
 
     /**
      * The list of fonts to be used in the different themes.
      */
     'fonts' => [
-        //        'calibri' => 'Calibri-Regular.ttf',
+        'ssp_regular' => 'SourceSerifPro/SourceSerifPro-Regular.ttf',
+        'ssp_bold' => 'SourceSerifPro/SourceSerifPro-Bold.ttf',
+        'ssp_italic' => 'SourceSerifPro/SourceSerifPro-Italic.ttf',
+        'montserrat_medium' => 'Montserrat/Montserrat-Medium.ttf',
+        'jetbrainsmono_medium' => 'JetBrainsMono/JetBrainsMono-Medium.ttf',
         //        'times' => 'times-regular.ttf',
     ],
 
@@ -46,16 +50,11 @@ return [
     /**
      * Page ranges to be used with the sample command.
      */
-    'sample' => [
-        [1, 3],
-        [80, 85],
-        [100, 103]
-    ],
+    'sample' => [],
 
 
     /**
      * A notice printed at the final page of a generated sample.
      */
-    'sample_notice' => 'This is a sample from "Laravel Queues in Action" by Mohamed Said. <br> 
-                        For more information, <a href="https://www.learn-laravel-queues.com/">Click here</a>.',
+    'sample_notice' => '',
 ];
